@@ -1,0 +1,13 @@
+{
+    "name": "jcuna/api_docs",
+    "description": "Generates Swagger Docs",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "Jcuna\\ApiDocs\\": "src/"
+      }
+    },
+    "require": {
+        "phpdocumentor/reflection-docblock": "^4.3"
+    }
+}
